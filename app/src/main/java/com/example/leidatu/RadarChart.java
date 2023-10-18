@@ -129,7 +129,7 @@ public class RadarChart extends View {
     protected void onSizeChanged(int width, int height, int oldwidth, int oldheight) {
         mCenterX = Math.abs(div(width, 2f));
         mCenterY = Math.abs(div(height, 2f));
-        mRadius = Math.min(div(width, 2f), div(height, 2f)) * 0.6f;
+        mRadius = Math.min(div(width, 2f), div(height, 2f)) * 0.7f;
         super.onSizeChanged(width, height, oldwidth, oldheight);
     }
 
