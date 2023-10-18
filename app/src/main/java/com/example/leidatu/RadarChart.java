@@ -70,6 +70,8 @@ public class RadarChart extends View {
 
     public void setData(ArrayList<ScoreItem> list) {
         mlables.clear();
+        dataValue.clear();
+        dataSeries.clear();
         list.forEach(item -> {
             mlables.add(item.getName());
             dataValue.add(item.getValue());
